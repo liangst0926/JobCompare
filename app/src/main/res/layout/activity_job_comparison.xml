@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnterJobOffer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/editJobOfferTextID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Two Job Comparison" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/emptyTextID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="#2196F3"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/job1ID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="#2196F3"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/job2ID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="#FF5722"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/titleTextEditJobID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Title:"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/job1titleID"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="#2196F3" />
+
+            <TextView
+                android:id="@+id/job2titleID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FF5722" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/companyTextEditJobID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Company:"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/job1companyID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#2196F3" />
+
+            <TextView
+                android:id="@+id/job2companyID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FF5722" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/locationTextEditJobID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Location ( City &amp; State):"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/job1locationID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#2196F3" />
+
+            <TextView
+                android:id="@+id/job2locationID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FF5722" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/colTextJobOfferID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Cost of living in location (index):"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/job1colID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#2196F3" />
+
+            <TextView
+                android:id="@+id/job2colID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FF5722" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/ysTextJobOfferID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Adjusted yearly salary:"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/job1ysID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#2196F3" />
+
+            <TextView
+                android:id="@+id/job2ysID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FF5722" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/ybTextJobOfferID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Adjusted yearly bonus:"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/job1ybID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#2196F3" />
+
+            <TextView
+                android:id="@+id/job2ybID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FF5722" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/teleworkTextJobOfferID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Allowed weekly telework days (0-5):"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/job1teleworkID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#2196F3" />
+
+            <TextView
+                android:id="@+id/job2teleworkID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FF5722" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/leaveTextJobOfferID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Leave days:"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/job1leaveID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#2196F3" />
+
+            <TextView
+                android:id="@+id/job2leaveID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FF5722" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/gymTextJobOfferID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Gym membership allowance($0-$500):"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/job1gymID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#2196F3" />
+
+            <TextView
+                android:id="@+id/job2gymID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#FF5722" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/anotherComparisonButtonID"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Perform another comparison" />
+
+            <Button
+                android:id="@+id/backButtonJobComparisonID"
+                android:layout_width="85dp"
+                android:layout_height="match_parent"
+                android:text="Exit " />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

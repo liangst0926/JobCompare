@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditJob">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/editJobTextID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Job Offer" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/titleTextEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title:" />
+
+            <EditText
+                android:id="@+id/titleEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/companyTextEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Company:" />
+
+            <EditText
+                android:id="@+id/companyEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/locationTextEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location ( City &amp; State):" />
+
+            <EditText
+                android:id="@+id/locationEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/colTextEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cost of living in location (index):" />
+
+            <EditText
+                android:id="@+id/colEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ysTextEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yearly salary:" />
+
+            <EditText
+                android:id="@+id/ysEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ybTextEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yearly bonus:" />
+
+            <EditText
+                android:id="@+id/ybEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/teleworkTextEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Allowed weekly telework days (0-5):" />
+
+            <EditText
+                android:id="@+id/teleworkEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/leaveTextEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leave days:" />
+
+            <EditText
+                android:id="@+id/leaveEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/gymTextEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gym membership allowance($0-$500):" />
+
+            <EditText
+                android:id="@+id/gymEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/saveButtonEditJobID"
+                android:layout_width="84dp"
+                android:layout_height="match_parent"
+                android:text="Save" />
+
+            <Button
+                android:id="@+id/cancelButtonEditJobID"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Cancel" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
